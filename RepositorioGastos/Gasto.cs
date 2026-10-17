@@ -1,0 +1,10 @@
+﻿namespace RepositorioGastos
+{
+    internal class Gasto
+    {
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
+        public decimal Monto { get; set; }
+        public string Categoria { get; set; }
+    }
+}
